@@ -1,0 +1,21 @@
+.place__paragraphs {
+	grid-area: paragraphs;
+	margin: 0;
+	padding: 0;
+}
+
+@media all and (max-width:767px) {
+	.place__paragraphs {
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+
+@media all and (max-width:425px) {
+	.place__paragraphs {
+		width: calc(100% - (2*16px));
+		max-width: 288px;
+		margin: 0 auto 48px;
+	}
+}

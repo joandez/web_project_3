@@ -1,20 +1,35 @@
 # Project 3: From Portland to Portland
 
-### Overview
-* Intro
-* Figma
-* Images
+[Project 3](https://github.com/joandez/web_project_3) notes by [Joanna Wong](https://github.com/joandez/)
 
-**Intro**
+## Overview
+* [Intro](#intro)
+* [Project Description](#project-description)
+* [Requirements](#requirements)
+* [Plans for improvement](#plans-for-improvement)
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+## Intro
 
-**Figma**
+This is a project about traveling across the U.S. from Portland, ME to Portland, OR. We've made it so all the elements are displayed correctly on popular screen sizes!
 
-* [Link to the project on Figma](https://www.figma.com/file/lNsn9aE1Be6bvg9FeAzRXT/Sprint-3-From-Portland-to-Portland-desktop-mobile?node-id=0%3A1)
+## Project description
 
-**Images**
+For this project, we were provided a **[Figma design](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=500%3A0)** as our creative brief. We're learning how to apply topics covered in Course 2, Sprint 3 of the Practicum by Yandex: Web Developer program, including but not limited to:
+* Working with Designs and Specifications
+* Responsive Web Design
+* CSS Grid Layouts
+* Media Queries
+* Git Branches
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+Per our project specifications, I focused on these primary intervals for breakpoints:
+* 1280px and higher (standard laptops and beyond)
+* From 1024px to 1280px (from a tablet in landscape to a standard laptop)
+* From 768px to 1024px (from a tablet in portrait to a tablet in landscape)
+* From 425px to 768px (from a large smartphone to a tablet in portrait)
+* Up to 425px (mobile devices)
 
-Good luck and have fun!
+## Requirements
+I haven't added browser-specific prefixes for CSS Grid elements, so please view in Chrome 57+ or Safari 10.1+.
+
+## Plans for improvement
+Once we learn more about Javascript, we can add functionality to the header's language Links element.

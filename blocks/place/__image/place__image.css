@@ -1,0 +1,19 @@
+.place__image {
+    grid-area: image;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (max-width:767px) {
+	.place__image {
+		margin: 32px auto;
+	}
+}
+
+@media all and (max-width:425px) {
+	.place__image {
+		margin: 32px auto;
+		max-width: 320px;
+	}
+}
