@@ -1,13 +1,13 @@
-@import url("__title/intro__title.css");
-@import url("__subtitle/intro__subtitle.css");
-@import url("__text/intro__text.css");
-@import url("__list/intro__list.css");
-@import url("__list-item/intro__list-item.css");
-@import url("__span-accent/intro__span-accent.css");
+@import url('__title/intro__title.css');
+@import url('__subtitle/intro__subtitle.css');
+@import url('__text/intro__text.css');
+@import url('__list/intro__list.css');
+@import url('__list-item/intro__list-item.css');
+@import url('__span-accent/intro__span-accent.css');
 
 .intro {
 	margin: 92px auto;
-	width: calc(100% - (2*148px));
+	width: calc(100% - (2 * 148px));
 	max-width: 984px;
 }
 
@@ -20,7 +20,7 @@
 
 @media all and (min-width:768px) and (max-width:1023px) {
 	.intro {
-		width: calc(100% - (2*24px));
+		width: calc(100% - (2 * 24px));
 		max-width: 720px;
 		margin: 88px auto;
 	}
@@ -28,7 +28,7 @@
 
 @media all and (min-width:426px) and (max-width:767px) {
 	.intro {
-		width: calc(100% - (2*24px));
+		width: calc(100% - (2 * 24px));
 		margin: 72px auto;
 	}
 }
@@ -36,7 +36,7 @@
 
 @media all and (max-width:425px) {
 	.intro {
-		width: calc(100% - (2*16px));
+		width: calc(100% - (2 * 16px));
 		max-width: 288px;
 		margin: 64px auto;
 	}

@@ -1,6 +1,6 @@
 # Project 3: From Portland to Portland
 
-[Project 3](https://github.com/joandez/web_project_3) notes by [Joanna Wong](https://github.com/joandez/)
+[Project 3](https://joandez.github.io/web_project_3/) notes by [Joanna Wong](https://github.com/joandez/)
 
 ## Overview
 * [Intro](#intro)

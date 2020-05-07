@@ -17,7 +17,7 @@
 	.lead__subtitle {
 		font-size: 22px;
 		margin: auto auto 48px;
-		width: calc(100% - (2*24px));
+		width: calc(100% - (2 * 24px));
 		max-width: 450px;
 	}
 }

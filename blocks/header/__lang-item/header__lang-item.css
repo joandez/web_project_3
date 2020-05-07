@@ -1,0 +1,5 @@
+.header__lang-item:first-of-type {
+	text-decoration: underline;
+	margin-right: 18px;
+	padding: 0;
+}

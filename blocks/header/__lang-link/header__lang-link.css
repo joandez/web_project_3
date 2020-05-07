@@ -8,12 +8,6 @@
 	transition: opacity .5s ease;
 }
 
-.header__lang-link:nth-child(1) {
-	text-decoration: underline;
-	margin-right: 18px;
-	padding: 0;
-}
-
 .header__lang-link:hover {
 	opacity: .8;
 	cursor: pointer;

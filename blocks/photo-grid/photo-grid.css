@@ -1,9 +1,9 @@
-@import url("__container/photo-grid__container.css");
-@import url("__item/photo-grid__item.css");
-@import url("__image/photo-grid__image.css");
+@import url('__container/photo-grid__container.css');
+@import url('__item/photo-grid__item.css');
+@import url('__image/photo-grid__image.css');
 
 .photo-grid {
-	width: calc(100% - (2*48px));
+	width: calc(100% - (2 * 48px));
 	max-width: 1184px;
 	margin: auto;
 }
@@ -16,14 +16,14 @@
 
 @media all and (min-width:426px) and (max-width:1023px) {
 	.photo-grid {
-		width: calc(100% - (2*24px));
+		width: calc(100% - (2 * 24px));
 		max-width: 720px;
 	}
 }
 
 @media all and (max-width:425px) {
 	.photo-grid {
-		width: calc(100% - (2*16px));
+		width: calc(100% - (2 * 16px));
 		max-width: 288px;
 	}
 }

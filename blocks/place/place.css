@@ -1,10 +1,10 @@
-@import url("__title/place__title.css");
-@import url("__image/place__image.css");
-@import url("__website/place__website.css");
-@import url("__url-heading/place__url-heading.css");
-@import url("__link/place__link.css");
-@import url("__paragraphs/place__paragaphs.css");
-@import url("__paragraph/place__paragraph.css");
+@import url('__title/place__title.css');
+@import url('__image/place__image.css');
+@import url('__website/place__website.css');
+@import url('__url-heading/place__url-heading.css');
+@import url('__link/place__link.css');
+@import url('__paragraphs/place__paragaphs.css');
+@import url('__paragraph/place__paragraph.css');
 
 .place {
 	width: 100%;
@@ -15,8 +15,8 @@
 	grid-template-rows: auto;
 	grid-gap: 48px 40px;
 	grid-template-areas:
-		"title website"
-		"image paragraphs"
+		'title website'
+		'image paragraphs';
 }
 
 @media all and (min-width:1024px) and (max-width:1279px) {
